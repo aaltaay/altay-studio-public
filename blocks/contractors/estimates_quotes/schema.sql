@@ -1,0 +1,1 @@
+CREATE TABLE estimates (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), client_id UUID, items JSONB, total DECIMAL, status TEXT DEFAULT 'draft', expires_at TIMESTAMPTZ);\n

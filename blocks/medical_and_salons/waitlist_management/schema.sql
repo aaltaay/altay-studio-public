@@ -1,0 +1,1 @@
+CREATE TABLE waitlist (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), name TEXT, phone TEXT, requested_service TEXT, joined_at TIMESTAMPTZ DEFAULT NOW(), status TEXT DEFAULT 'waiting');\n

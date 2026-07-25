@@ -1,0 +1,1 @@
+CREATE TABLE consents (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), client_id UUID, form_type TEXT, signature TEXT, signed_at TIMESTAMPTZ DEFAULT NOW());\n

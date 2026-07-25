@@ -1,0 +1,1 @@
+CREATE TABLE jobs (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), client_id UUID, tech_id UUID, address TEXT, status TEXT DEFAULT 'scheduled', geo_lat DECIMAL, geo_lng DECIMAL);\n

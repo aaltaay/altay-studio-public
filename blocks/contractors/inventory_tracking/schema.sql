@@ -1,0 +1,1 @@
+CREATE TABLE inventory (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), item_name TEXT, sku TEXT, quantity INT, location TEXT);\n

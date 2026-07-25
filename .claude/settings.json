@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_eval",
+      "mcp__Claude_Preview__preview_screenshot",
+      "mcp__Claude_Preview__preview_console_logs",
+      "WebFetch",
+      "WebSearch",
+      "PowerShell(Get-ChildItem *)"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+CREATE TABLE job_costs (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), job_id UUID, expense_type TEXT, amount DECIMAL, description TEXT);\n

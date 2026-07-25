@@ -1,0 +1,1 @@
+CREATE TABLE reviews (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), client_id UUID, rating INT, comment TEXT, created_at TIMESTAMPTZ DEFAULT NOW());\n

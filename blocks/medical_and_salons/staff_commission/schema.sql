@@ -1,0 +1,1 @@
+CREATE TABLE commissions (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), staff_id UUID, service_id UUID, amount DECIMAL, payout_status TEXT DEFAULT 'pending');\n

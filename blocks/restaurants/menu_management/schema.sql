@@ -1,0 +1,1 @@
+CREATE TABLE menu_items (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), name TEXT, price DECIMAL, category TEXT, allergens TEXT[], available BOOLEAN DEFAULT true);\n

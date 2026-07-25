@@ -1,0 +1,1 @@
+CREATE TABLE memberships (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), client_id UUID, tier TEXT, points INT DEFAULT 0, status TEXT DEFAULT 'active');\n

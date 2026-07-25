@@ -1,0 +1,1 @@
+CREATE TABLE client_photos (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), client_id UUID, url TEXT, before_after TEXT, uploaded_at TIMESTAMPTZ DEFAULT NOW());\n

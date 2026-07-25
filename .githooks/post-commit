@@ -1,0 +1,10 @@
+#!/bin/sh
+# Opt-in only: set ALTAY_AUTO_PUSH=1 to push after each commit.
+if [ "${ALTAY_AUTO_PUSH:-}" != "1" ]; then
+  exit 0
+fi
+if ! git rev-parse --git-dir >/dev/null 2>&1; then
+  exit 0
+fi
+echo "--> ALTAY_AUTO_PUSH=1: pushing committed changes..."
+git push origin HEAD

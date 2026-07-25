@@ -1,0 +1,1 @@
+CREATE TABLE reservations (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), name TEXT, party_size INT, reservation_time TIMESTAMPTZ, table_number INT, status TEXT DEFAULT 'booked');\n

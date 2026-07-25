@@ -1,0 +1,1 @@
+CREATE TABLE change_orders (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), job_id UUID, description TEXT, price_adjustment DECIMAL, status TEXT DEFAULT 'pending_approval');\n

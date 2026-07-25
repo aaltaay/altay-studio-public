@@ -1,0 +1,1 @@
+CREATE TABLE orders (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), items JSONB, total DECIMAL, order_type TEXT, status TEXT DEFAULT 'received');\n

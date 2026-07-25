@@ -1,0 +1,1 @@
+CREATE TABLE campaigns (id UUID PRIMARY KEY DEFAULT gen_random_uuid(), name TEXT NOT NULL, trigger_type TEXT, content TEXT, status TEXT DEFAULT 'draft');\n
